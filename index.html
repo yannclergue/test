@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" media="screen and (min-width:800px)" href="style/style_PC.css">
     <title>Les Tutos JV</title>
 </head>
 <style>
@@ -55,14 +56,6 @@
         text-align: start;
     }
 
-    .articles {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        gap: 20px;
-        padding: 20px;
-    }
 
     img {
         padding-top: 20px;
@@ -77,6 +70,23 @@
         font-weight: bolder;
         font-size: 1.5em;
         margin-bottom: 2px;
+    }
+
+    .titre{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    footer {
+        background-color: var(--noir);
+        padding: 10px;
+        color: var(--nav);
+    }
+
+    footer>p {
+        padding: 5px;
+        font-size: 1em;
     }
 </style>
 
@@ -99,32 +109,40 @@
         <div class="intro">
             <p>
                 Ici, vous trouverez des tutos et des astuces sur tout ce qui touche
-                le monde du PC ainsi que du jeu vidéo !
+                le monde du PC ainsi que du jeu vidéo
             </p>
         </div>
         <h2>Les derniers articles :</h2>
         <div class="articles">
             <div class="contenu">
-                <div class="tuto">
-                    <p>Tuto :</p>
-                </div>
                 <div class="titre">
+                    <p class="tuto">Tuto :</p>
                     <h3>Les emulateurs switch pour jouer sur votre PC</h3>
-                    <img src="img/Vidéo-émulation.jpg" alt="image de test" loading="lazy" width="1280px" height="720px">
                 </div>
+                <img src="img/Vidéo-émulation.jpg" alt="image de test" loading="lazy" width="1280px" height="720px">
             </div>
             <div class="contenu">
-                <div class="tuto">
-                    <p>Tuto :</p>
-                </div>
                 <div class="titre">
+                    <p class="tuto">Tuto :</p>
                     <h3>Les emulateurs switch pour jouer sur votre PC</h3>
-                    <img src="img/Vidéo-émulation.jpg" alt="image de test" loading="lazy" width="1280px" height="720px">
                 </div>
+                <img src="img/Vidéo-émulation.jpg" alt="image de test" loading="lazy" width="1280px" height="720px">
             </div>
-
+            <div class="contenu">
+                <div class="titre">
+                    <p class="tuto">Tuto :</p>
+                    <h3>Les emulateurs switch pour jouer sur votre PC</h3>
+                </div>
+                <img src="img/Vidéo-émulation.jpg" alt="image de test" loading="lazy" width="1280px" height="720px">
+            </div>
         </div>
     </main>
+
+  <footer>
+    <p>Copyright © 2020 Les Tutos JV</p>
+    <p>Me suivre : Twitter - Youtube</p>
+    <p>Me contacter : Gmail</p>
+  </footer>
 </body>
 
 </html>
