@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Les Tutos JV</title>
+</head>
+<style>
+    nav {
+        background-color: var(--noir);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    nav>div>p {
+        color: var(--nav);
+        font-size: 1.5em;
+    }
+
+    #menus {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    header {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    h1 {
+        color: var(--titre)
+    }
+
+    h2 {
+        margin-top: 10px;
+        color: var(--sous_titre);
+        font-size: 1.5em;
+        padding-left: 5px;
+    }
+
+    main {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    main>h2 {
+        text-align: start;
+    }
+
+    .articles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    img {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .tuto {
+        color: white;
+        background-color: rgb(219, 19, 19);
+        width: 20%;
+        padding: 5px;
+        font-weight: bolder;
+        font-size: 1.5em;
+        margin-bottom: 2px;
+    }
+</style>
+
+<body>
+    <nav>
+        <div>
+            <p>Les Tutos JV</p>
+        </div>
+        <div id="menus">
+            <p>Astuces</p>
+            <p>Tuto</p>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Bienvenue sur les tutos JV !</h1>
+    </header>
+
+    <main>
+        <div class="intro">
+            <p>
+                Ici, vous trouverez des tutos et des astuces sur tout ce qui touche
+                le monde du PC ainsi que du jeu vidéo !
+            </p>
+        </div>
+        <h2>Les derniers articles :</h2>
+        <div class="articles">
+            <div class="contenu">
+                <div class="tuto">
+                    <p>Tuto :</p>
+                </div>
+                <div class="titre">
+                    <h3>Les emulateurs switch pour jouer sur votre PC</h3>
+                    <img src="img/Vidéo-émulation.jpg" alt="image de test" loading="lazy" width="1280px" height="720px">
+                </div>
+            </div>
+            <div class="contenu">
+                <div class="tuto">
+                    <p>Tuto :</p>
+                </div>
+                <div class="titre">
+                    <h3>Les emulateurs switch pour jouer sur votre PC</h3>
+                    <img src="img/Vidéo-émulation.jpg" alt="image de test" loading="lazy" width="1280px" height="720px">
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

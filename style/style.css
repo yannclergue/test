@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --noir: rgba(67, 70, 67, 1);
+    --nav: rgba(254, 109, 213, 1);
+    --titre: rgba(182, 19, 136, 1);
+    --sous_titre: rgba(215, 47, 168, 1);
+    --background: rgba(245, 245, 245, 1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: var(--background);
+}
