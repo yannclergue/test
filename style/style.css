@@ -6,10 +6,13 @@
 
 :root {
     --noir: rgba(67, 70, 67, 1);
-    --nav: rgba(254, 109, 213, 1);
+    /* --nav: rgba(254, 109, 213, 1);
     --titre: rgba(182, 19, 136, 1);
-    --sous_titre: rgba(215, 47, 168, 1);
-    --background: rgba(245, 245, 245, 1);
+    --sous_titre: rgba(215, 47, 168, 1); */
+    --background: rgba(224, 219, 219, 0.842);
+    --blanc: rgba(255, 255, 255, 1);
+    --rouge: rgb(255, 6, 6);
+    --bleu: rgb(0, 153, 255);
 }
 
 img {
