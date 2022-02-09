@@ -7,6 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="style/style.css" rel="stylesheet">
     <link href="style/style_PC.css" media="screen and (min-width:800px)" rel="stylesheet">
+    <meta name="description" content="ici, trouvez les astuces et regarder les tutoriels qu'il vous faut en cas de besoin sur tout ce qui touche au monde du PC. Emulation, boost de performances et conseil pratique sont à l'oeuvre">
     <title>Les Tutos JV</title>
 </head>
 <style>
@@ -22,6 +23,7 @@
     nav>div>p {
         color: var(--blanc);
         font-size: 1.5em;
+        cursor: pointer;
     }
 
     #menus {
@@ -37,7 +39,7 @@
     }
 
     h2 {
-        margin-top: 10px;
+        margin: 40px 0px;
         font-size: 1.5em;
         padding-left: 5px;
     }
@@ -67,6 +69,10 @@
         margin-bottom: 2px;
     }
 
+    .articles {
+        border: 1px solid rgb(184, 182, 182);
+    }
+
     .titre {
         display: flex;
         align-items: center;
@@ -75,12 +81,13 @@
 
     footer {
         background-color: var(--noir);
-        padding: 10px;
+        padding: 15px;
+        height: 10%;
         color: var(--blanc);
     }
 
     footer>p {
-        padding: 5px;
+        padding: 3px;
         font-size: 1em;
     }
 
@@ -88,12 +95,14 @@
         background-color: var(--bleu);
         padding: 5px;
         font-weight: bold;
+        transition: 0.5s;
     }
 
     #tuto {
         background-color: var(--rouge);
         padding: 5px;
         font-weight: bold;
+        transition: 0.5s;
     }
 
     .intro {
@@ -121,6 +130,43 @@
         stroke: var(--bleu);
         stroke-dasharray: 0 100;
         transition: 2s;
+    }
+
+    #astuces:hover {
+        background-color: white;
+        color: var(--bleu);
+        transition: 0.5s;
+    }
+
+    #tuto:hover {
+        background-color: white;
+        color: var(--rouge);
+        transition: 0.5s;
+    }
+
+    #youtube:hover {
+        color: #C4302B;
+        transition: 0.5s;
+    }
+
+    #twitter:hover {
+        color: #00ACEE;
+        transition: 0.5s;
+    }
+
+    #mail:hover {
+        color: #fbbc04;
+        transition: 0.5s;
+    }
+
+    picture {
+        cursor: pointer;
+        transition: 0.6s;
+    }
+
+    picture:hover {
+        opacity: 0.7;
+        transition: 0.6s;
     }
 </style>
 
@@ -186,10 +232,11 @@
     </main>
     <footer>
         <p>Copyright © 2020 Les Tutos JV</p>
-        <p>Me suivre : Twitter - Youtube</p>
-        <p>Me contacter : Gmail</p>
+        <p>Me suivre : <a id="twitter" href="https://twitter.com/home" target="_blank">Twiter</a> - <a id="youtube"
+                href="https://www.youtube.com/channel/UCLWeRMOUL39W23_X9HE70jg" target="_blank">Youtube</a></p>
+        <p>Me contactez :<a id="mail" href="mailto:clergue14@gmail.com" target="_blank"> gmail</a></p>
     </footer>
     <script src="js/js.js"></script>
 </body>
-</html>
 
+</html>
