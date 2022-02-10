@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="style/style.css"as="style">
+    <link rel="stylesheet" href="style/style_PC.css"as="style">
     <link href="style/style.css" rel="stylesheet">
     <link href="style/style_PC.css" media="screen and (min-width:800px)" rel="stylesheet">
     <meta name="description" content="ici, trouvez les astuces et regarder les tutoriels qu'il vous faut en cas de besoin sur tout ce qui touche au monde du PC. Emulation, boost de performances et conseil pratique sont à l'oeuvre">
@@ -71,24 +73,13 @@
 
     .articles {
         border: 1px solid rgb(184, 182, 182);
+        margin-bottom: 15px;
     }
 
     .titre {
         display: flex;
         align-items: center;
         gap: 10px;
-    }
-
-    footer {
-        background-color: var(--noir);
-        padding: 15px;
-        height: 10%;
-        color: var(--blanc);
-    }
-
-    footer>p {
-        padding: 3px;
-        font-size: 1em;
     }
 
     #astuces {
@@ -109,6 +100,7 @@
         padding: 0px 20px;
     }
 
+    /* le dessin */
 
     svg>path {
         stroke-dasharray: 10 5;
@@ -117,7 +109,6 @@
 
     svg>#second {
         stroke-dasharray: 100;
-        stroke-dashoffset: 100 0;
         transition: 2s;
     }
 
@@ -130,6 +121,20 @@
         stroke: var(--bleu);
         stroke-dasharray: 0 100;
         transition: 2s;
+    }
+
+    /* Plus le dessin */
+
+    footer {
+        background-color: var(--noir);
+        padding: 15px;
+        height: 10%;
+        color: var(--blanc);
+    }
+
+    footer>p {
+        padding: 3px;
+        font-size: 1em;
     }
 
     #astuces:hover {
